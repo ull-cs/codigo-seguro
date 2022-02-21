@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 int main(int argc, char **argv) {
-  char password[] = "yomama";
+  char password[] = "secredpassword";
   if (argc < 2) {
     printf("Usage: %s <password>\n", argv[0]);
     exit(1);
@@ -17,3 +17,4 @@ int main(int argc, char **argv) {
   }
   return(0);
 }
+

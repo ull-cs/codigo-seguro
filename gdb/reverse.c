@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 int main(int argc, char **argv) {
-  char password[] = "secredpassword";
+  char password[] = "secretpassword";
   if (argc < 2) {
     printf("Usage: %s <password>\n", argv[0]);
     exit(1);
